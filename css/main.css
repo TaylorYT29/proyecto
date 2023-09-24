@@ -9,6 +9,7 @@
  */
 
 /* en el main solo va las imports */
+@import url(abstracts/vars.css);
 @import url(./layout/foms.css);
 @import url(./layout/footer.css);
 @import url(./layout/grid.css);
