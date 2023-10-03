@@ -24,3 +24,43 @@
 
 /* lasndscape phone- less than 768px */
 
+.second-title {
+  text-align: center;
+  color: #fff;
+}
+
+.recipe-container {
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1.5rem;
+}
+
+.recipe-image {
+  height: 215px;
+  width: 235px;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.recipe{
+  display: grid;
+  background-color: #A20E03;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+.btn-add{
+  text-decoration: none;
+  color: #000;
+  background: #FFAA04;
+  padding: 1rem 1rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+
+}
