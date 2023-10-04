@@ -7,8 +7,6 @@
     height: min(45rem, 50rem, 55rem);
     text-align: center;
     width: 100%;
-}
-
-.hero-thumb {
     
+    border: 1px solid rgb(0, 162, 255);
 }

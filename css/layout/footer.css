@@ -25,12 +25,14 @@
     margin: auto;
 }
 .footer-container {
-    background: var(--clr-inner-bg);
+    background: var(--clr-grey-footer);
     background-size: cover;
     background-position: center;
     border-top-left-radius:6rem;
-    border-top-right-radius:6rem;width: 100%;
+    border-top-right-radius:6rem;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     height: min(45rem, 10rem, 55rem);
-    width: 100%;
+    width: 115rem;
 }

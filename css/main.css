@@ -37,6 +37,10 @@
   gap: 1.5rem;
 }
 
+.recipe:hover {
+  transform: scale(1.1);
+}
+
 .recipe-image {
   height: 215px;
   width: 235px;
@@ -53,6 +57,14 @@
   margin: auto;
 }
 
+.recipe-title {
+  color: var(--clr-white);
+}
+
+.recipe-price {
+  color: var(--clr-white);
+}
+
 .btn-add{
   text-decoration: none;
   color: #000;
@@ -63,4 +75,17 @@
   margin-left: 45px;
   margin-right: 45px;
 
+}
+
+.header-img {
+  background: var(--clr-grey);
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.563rem;
+  display: grid;
+  height: 40rem;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 115rem;
 }
