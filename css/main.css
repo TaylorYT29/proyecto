@@ -26,7 +26,7 @@
 
 .second-title {
   text-align: center;
-  color: #fff;
+  color: #000000;
 }
 
 .recipe-container {
@@ -78,13 +78,13 @@
 }
 
 .header-img {
-  background: var(--clr-grey);
+  background: var(--clr-grey-footer);
   background-size: cover;
   background-position: center;
-  border-radius: 1.563rem;
+  border-radius: 6rem;
   display: grid;
   height: 40rem;
-  margin-top: 10rem;
+  margin-top: 6rem;
   margin-left: auto;
   margin-right: auto;
   width: 115rem;
