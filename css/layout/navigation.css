@@ -32,7 +32,9 @@
 }
 
 .hero-title {
-    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
 
 .icon {
@@ -59,6 +61,7 @@
     margin: 0 auto 0 auto;
     background: var(--clr-white);
 
+    background: var(--clr-white);
 
 
     /*border: 1px solid red;*/

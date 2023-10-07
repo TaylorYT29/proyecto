@@ -37,6 +37,10 @@
   gap: 1.5rem;
 }
 
+.recipe:hover {
+  transform: scale(1.1);
+}
+
 .recipe-image {
   height: 215px;
   width: 235px;
@@ -72,3 +76,17 @@
   margin-right: 45px;
 
 }
+
+.header-img {
+  background: var(--clr-grey-footer);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6rem;
+  display: grid;
+  height: 40rem;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 115rem;
+}
+
