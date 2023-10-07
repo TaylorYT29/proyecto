@@ -25,11 +25,12 @@
     margin: auto;
 }
 .footer-container {
-    background: var(--clr-inner-bg);
+    background: var(--clr-grey);
     background-size: cover;
     background-position: center;
     border-top-left-radius:6rem;
-    border-top-right-radius:6rem;width: 100%;
+    border-top-right-radius:6rem;
+    width: 100%;
     display: grid;
     height: min(45rem, 10rem, 55rem);
     width: 100%;

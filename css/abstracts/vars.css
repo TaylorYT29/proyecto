@@ -5,7 +5,10 @@
 
 /* colors */
 --clr-inner-bg: hsla(210, 8%, 5%, 1);
+--clr-black: hsla(210, 8%, 5%, 1);
 --clr-white:hsla(0,100%,100%,1);
+--clr-grey: hsla(0, 0%, 20%, 1);
+--clr-grey-footer: hsla(210, 2%, 36%, 1);
 
 
 }

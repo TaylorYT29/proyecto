@@ -26,7 +26,7 @@
 
 .second-title {
   text-align: center;
-  color: #fff;
+  color: #000000;
 }
 
 .recipe-container {
@@ -51,6 +51,14 @@
   border-radius: 25px;
   text-align: center;
   margin: auto;
+}
+
+.recipe-title {
+  color: var(--clr-white);
+}
+
+.recipe-price {
+  color: var(--clr-white);
 }
 
 .btn-add{
