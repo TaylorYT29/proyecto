@@ -37,10 +37,6 @@
   gap: 1.5rem;
 }
 
-.recipe:hover {
-  transform: scale(1.1);
-}
-
 .recipe-image {
   height: 215px;
   width: 235px;
@@ -75,6 +71,34 @@
   margin-left: 45px;
   margin-right: 45px;
 
+}
+
+.categoris-container{
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1.5rem;
+}
+
+.categories{
+  display: grid;
+  background-color: #A20E03;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+.categories-image{
+  height: 215px;
+  width: 235px;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.categories-title{
+  color: var(--clr-white);
 }
 
 .header-img {
