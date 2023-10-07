@@ -1,29 +1,3 @@
-
-.footer-content{
-    display: grid;
-    width: 80vw;
-    margin: 2rem auto;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap: 1.5rem;
-}
-
-.footer-links{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    gap: 1rem;
-
-}
-
-.nav-bottom-list{
-    padding: 0;
-    list-style-type:none;
-}
-
-.download-app{
-    display: grid;
-    width: 80vw;
-    margin: auto;
-}
 .footer-container {
     background: var(--clr-grey);
     background-size: cover;
