@@ -27,13 +27,14 @@
 .second-title {
   text-align: center;
   color: #000000;
+  margin: 4rem 0;
 }
 
 .recipe-container {
   display: grid;
   width: 80vw;
   margin: 2rem auto;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
 }
 
@@ -45,7 +46,7 @@
   border-top-right-radius: 25px;
 }
 
-.recipe{
+.recipe {
   display: grid;
   background-color: #A20E03;
   border-radius: 25px;
@@ -61,7 +62,7 @@
   color: var(--clr-white);
 }
 
-.btn-add{
+.btn-add {
   text-decoration: none;
   color: #000;
   background: #FFAA04;
@@ -73,15 +74,15 @@
 
 }
 
-.categories-container{
+.categories-container {
   display: grid;
   width: 80vw;
   margin: 2rem auto;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
 }
 
-.categories{
+.categories {
   display: grid;
   background-color: #A20E03;
   border-radius: 25px;
@@ -89,7 +90,7 @@
   margin: auto;
 }
 
-.categories-image{
+.categories-image {
   height: 215px;
   width: 235px;
   justify-content: center;
@@ -97,7 +98,7 @@
   border-top-right-radius: 25px;
 }
 
-.categories-title{
+.categories-title {
   color: var(--clr-white);
 }
 
@@ -114,3 +115,41 @@
   width: 115rem;
 }
 
+.form-container {
+  display: grid;
+  align-content: center;
+  margin: 9rem auto;
+  padding-left: 18rem;
+  width: 80vw;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+
+}
+
+.form-comments {
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+
+.form {
+  background: #D9D9D9;
+  display: flex;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.input-comments {
+  border: none;
+  padding: .5rem;
+  width: 100%;
+}
+
+.submit-btn{
+  background:#FFAA04 ;
+  border: none;
+  border-radius: 1rem;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
