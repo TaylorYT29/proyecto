@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero-container {
     background: hsla(0, 0%, 65%, 1);
     border-bottom-left-radius: 6rem;
@@ -9,4 +15,83 @@
     width: 100%;
     
     border: 1px solid rgb(0, 162, 255);
+}
+
+.carousel{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-container{
+    width: 100%;
+    height: 37.5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.item-carousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.item-carousel-card{
+    width: 100%;
+    height: 100%;
+}
+
+.item-carousel-arrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem; 
+}
+
+.item-carousel-arrows > i:hover {
+    cursor: pointer;
+}
+/*
+#itemcarousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#itemcarousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemcarousel-3{
+    background-color: rgb(200, 226, 50);
+}
+*/
+.carousel-controller-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-controller-container > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.item-carousel-arrows > a > i{
+    color: white;
+}
+
+.carousel-img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    width: 100%;
 }
