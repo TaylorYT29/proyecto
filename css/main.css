@@ -118,6 +118,7 @@
 .form-container {
   display: grid;
   align-content: center;
+  justify-content: center;
   margin: 9rem auto;
   padding-left: 18rem;
   width: 80vw;
@@ -138,18 +139,35 @@
   border-radius: 1rem;
   padding: 2rem;
   align-items: center;
+  gap: 2rem;
 }
 
 .input-comments {
   border: none;
   padding: .5rem;
   width: 100%;
+  gap: 2rem;
 }
 
-.submit-btn{
-  background:#FFAA04 ;
+.submit-btn {
+  background: url(../css/imgs/send.svg) #FFAA04;
   border: none;
-  border-radius: 1rem;
-  padding: .75rem 1.25rem;
+  background-repeat: no-repeat;
+  border-radius: .50rem;
+  background-position: center;
+  padding: 1.2rem;
   cursor: pointer;
+}
+
+
+/* page of categories */
+
+.head{
+  background-color: #333333;
+  padding: 5rem;
+}
+
+.title-categories{
+  text-align: center;
+  color: #ffff;
 }
