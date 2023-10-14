@@ -184,6 +184,7 @@
 }
 
 .quantities-image{
+  background-color: var(--clr-white);
   height: 215px;
   width: 235px;
   justify-content: center;
