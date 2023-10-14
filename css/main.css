@@ -159,15 +159,51 @@
   cursor: pointer;
 }
 
+.link-categories {
+  text-decoration: none;
+  margin: auto;
+}
+
+
+/* page categories */
+
+.quantities-container {
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.quantities{
+  display: grid;
+  background-color: #A20E03;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+.quantities-image{
+  height: 215px;
+  width: 235px;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.quantities-title {
+  color: var(--clr-white);
+}
+
+
 
 /* page of categories */
-
-.head{
+.head {
   background-color: #333333;
   padding: 5rem;
 }
 
-.title-categories{
+.title-categories {
   text-align: center;
   color: #ffff;
 }
