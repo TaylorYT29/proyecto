@@ -84,7 +84,8 @@
 }
 
 .item-carousel-arrows > a > i{
-    color: white;
+    color: var(--clr-black);
+    scale: 2;
 }
 
 .carousel-img {
