@@ -196,12 +196,28 @@
   color: var(--clr-white);
 }
 
+/* flechas */
+
+.flecha-derecha{
+  position: absolute;
+  top: 325px;
+  right: 105px;
+}
+
+.flecha-izquierda{
+  position: absolute;
+  top: 325px;
+  left: 105px;
+}
+
 
 
 /* page of categories */
 .head {
   background-color: #333333;
   padding: 5rem;
+  margin: 0 70px;
+  border-radius: 25px;
 }
 
 .title-categories {
