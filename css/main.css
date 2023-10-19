@@ -35,7 +35,7 @@
   width: 80vw;
   margin: 2rem auto;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  gap: 3.5rem;
 }
 
 .recipe-image {
@@ -195,6 +195,44 @@
 .quantities-title {
   color: var(--clr-white);
 }
+
+/* delivery */
+
+.delivery-container {
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.delivery{
+  display: grid;
+  background-color: #A20E03;
+  border-radius: 35px ;
+  text-align: center;
+  margin: auto;
+}
+
+.delivery-image{
+  background-color: var(--clr-white);
+  height: 215px;
+  width: 235px;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.delivery-title {
+  color: var(--clr-white);
+}
+
+.link-delivery{
+  text-decoration: none;
+  margin: auto;
+}
+
+
 
 /* flechas */
 
