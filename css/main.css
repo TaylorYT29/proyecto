@@ -238,14 +238,49 @@
 
 .flecha-derecha{
   position: absolute;
-  top: 325px;
+  top: 310px;
   right: 105px;
 }
 
 .flecha-izquierda{
   position: absolute;
-  top: 325px;
+  top: 310px;
   left: 105px;
+}
+
+/* shopping */
+
+.shop{
+  margin: auto;
+  display: grid;
+  gap: 2rem; 
+}
+
+
+.mas{
+  display: grid;
+  margin-left: 70px;
+  padding-bottom: 1rem;
+}
+
+.description{
+  display: flex;
+  background-color: #333333;
+  color: var(--clr-white);
+  gap: 2rem;
+}
+
+.total{
+  background-color: #333333;
+  color: var(--clr-white);
+}
+
+.container-shopping{
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
 }
 
 
