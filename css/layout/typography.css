@@ -1,0 +1,22 @@
+.hero-title {
+    font-family: var(--ff-tertiary);
+    display: flex;
+    justify-content: center;
+    margin-top: -4.5rem;
+}
+
+.nav-list-link {
+    font-family: var(--ff-secondary);
+}
+
+.second-title {
+    font-family: var(--ff-tertiary);
+}
+
+.recipe-title {
+    font-family: var(--ff-tertiary);
+}
+
+.recipe-price {
+    font-family: var(--ff-tertiary);
+}
