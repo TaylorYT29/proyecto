@@ -1,11 +1,3 @@
-.top-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 8rem;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
@@ -77,6 +69,91 @@
 }
 
 @media(max-width:767.98px) {
+
+    .logo {
+        
+        margin: auto;
+    }
+
+    .navigation {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .mobile-btn{
+        position: fixed;
+        top: 4rem;
+        right: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        z-index: 3;
+    }
+
+    .mobile-btn > span,
+    .mobile-btn > span::before,
+    .mobile-btn > span::after{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: .2rem;
+        background: var(--clr-black);
+        transition-duration: .25s;
+    }
+
+    .mobile-btn > span::before{
+        content: '';
+        top: -.5rem;
+    }
+
+    .mobile-btn > span::after{
+        content: '';
+        top: .5rem;
+    }
+
+    .mobile-check{
+        opacity: 0;
+        position: fixed;
+        top: 3.5rem;
+        right: 2.25rem;
+        z-index: 4;
+    }
+
+    .mobile-check:checked + .mobile-btn > span{
+        transform: rotate(45deg);
+    }
+
+    .mobile-check:checked + .mobile-btn > span::before{
+        top: 0;
+        transform: rotate(0deg);
+    }
+
+    .mobile-check:checked + .mobile-btn > span::after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    .mobile-check:checked ~ .navigation{
+        right: 0;
+    }
+
+    /* mobile check */
+    
+    .navigation{
+        display: grid;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        right: -20rem;
+        width: 50%;
+        height: 100vh;
+        background: var(--clr-white);
+        align-content: center;
+        text-align: left;
+        padding-left: 2rem;
+        z-index: 2;
+        transition: right .25s;
+        padding-bottom: 10rem;
+    }
 
 
 }

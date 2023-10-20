@@ -142,16 +142,16 @@
 }
 
 .form-container {
-  display: grid;
-  align-content: center;
+  display: flex;
+  border-radius: 1rem;
+  padding: 1rem;
+  align-items: center;
   justify-content: center;
-  margin: 9rem auto;
-  padding-left: 18rem;
-  width: 80vw;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
+  padding-top: 2rem;
 
 }
+
 
 .form-comments {
   display: grid;
@@ -548,7 +548,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .data-container {
     max-width: 77vh;
     width: 35vh;
@@ -574,5 +574,20 @@
   .signin-button {
     margin-top: 1rem; 
   }
+
+  .form-comments {
+    margin: 0 1rem 2rem;
+    text-align: center;
+    order: 2;
+  }
+
+  .form-image-image {
+    margin-bottom: 0;
+  }
+
+  .form-title {
+    margin: auto;
+  }
+
 }
 
