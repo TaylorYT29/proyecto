@@ -313,6 +313,21 @@
   gap: 1.5rem;
 }
 
+/* page contact */
+.contact-container{
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.img-contact{
+  height: 50px;
+  width: 50px;
+}
+
 
 .head {
   background-color: #333333;
