@@ -4,7 +4,7 @@ html{
 
 body{
     display: grid;
-    font-family: var(--ff-secondary);
+    font-family: var(--ff-tertiary);
     margin: 0;
     padding: 0;
 }

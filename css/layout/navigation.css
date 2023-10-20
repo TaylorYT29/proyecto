@@ -1,103 +1,117 @@
-.nav-list {
+.top-nav {
     display: flex;
-    align-items: center;
-    padding: 0;
-    list-style-type: none;
-    margin-top: -20rem;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-evenly
 }
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /*margin-top: -20rem;*/
+    padding: 0;
+}
+
 
 .nav-list-link {
-    text-decoration: none;
     color: var(--clr-white);
     font-size: var(--fs-md);
-    margin-top: 1.5rem;
     margin-bottom: -2.5rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
 }
-
+/*
 .icon {
-    display: flex;
     align-items: right;
+    display: flex;
+    left: 5rem;
     padding: 0;
     scale: 1.5;
-    left: 5rem; 
+}
+*/
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 1.8rem;
 }
 
+
 .logo {
-    scale: 0.25;
-    margin-top: -6rem;
     margin-bottom: 1rem;
+    margin-top: -6rem;
+    scale: 0.25;
 }
 
 .navigation {
+    background: var(--clr-white);
     display: flex;
     flex-flow: row wrap;
+    gap: 3rem;
     justify-content: space-evenly;
-
     list-style: none;
     margin: 0 auto 0 auto;
-    background: var(--clr-white);
-
-    background: var(--clr-white);
-
-
-    /*border: 1px solid red;*/
-    
 }
+
 
 .navigation a {
-    text-decoration: none;
+    color: var(--clr-black);
     display: block;
     padding: 1rem;
-    color: var(--clr-black);
+    text-decoration: none;
 }
+
 
 .navigation a:hover {
     background: #1565C0;
 }
 
 .nav-list-icon {
-    display: flex;
     align-items: center;
-    margin-left: 1rem; 
+    display: flex;
+    margin-left: 1rem;
 }
 
+
 .icon {
-    width: 24px; 
     height: 24px;
     margin-top: 1.8rem;
+    width: 24px;
+}
+
+.mobile-check {
+    display: none;
 }
 
 @media(max-width:767.98px) {
 
     .logo {
-        
         margin: auto;
     }
 
     .navigation {
-        margin-top: 2rem;
         margin-left: 2rem;
+        margin-top: 2rem;
     }
 
-    .mobile-btn{
-        position: fixed;
-        top: 4rem;
-        right: 2rem;
-        width: 1.5rem;
+    .mobile-btn {
         height: 1.5rem;
+        position: fixed;
+        right: 2rem;
+        top: 4rem;
+        width: 1.5rem;
         z-index: 3;
-    }
+    }    
 
     .mobile-btn > span,
     .mobile-btn > span::before,
     .mobile-btn > span::after{
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: .2rem;
         background: var(--clr-black);
+        display: block;
+        height: .2rem;
+        position: absolute;
         transition-duration: .25s;
+        width: 100%;
     }
 
     .mobile-btn > span::before{
@@ -110,50 +124,48 @@
         top: .5rem;
     }
 
-    .mobile-check{
+    .mobile-check {
         opacity: 0;
         position: fixed;
-        top: 3.5rem;
         right: 2.25rem;
+        top: 3.5rem;
         z-index: 4;
     }
-
+    
     .mobile-check:checked + .mobile-btn > span{
         transform: rotate(45deg);
     }
 
     .mobile-check:checked + .mobile-btn > span::before{
-        top: 0;
         transform: rotate(0deg);
+        top: 0;
     }
 
     .mobile-check:checked + .mobile-btn > span::after{
-        top: 0;
         transform: rotate(90deg);
+        top: 0;
     }
 
     .mobile-check:checked ~ .navigation{
         right: 0;
     }
-
-    /* mobile check */
     
-    .navigation{
-        display: grid;
-        position: fixed;
-        margin: 0;
-        top: 0;
-        right: -20rem;
-        width: 50%;
-        height: 100vh;
-        background: var(--clr-white);
+    .navigation {
         align-content: center;
-        text-align: left;
-        padding-left: 2rem;
-        z-index: 2;
-        transition: right .25s;
+        background: var(--clr-white);
+        display: grid;
+        height: 100vh;
+        margin: 0;
         padding-bottom: 10rem;
+        padding-left: 2rem;
+        position: fixed;
+        right: -20rem;
+        text-align: left;
+        top: 0;
+        transition: right .25s;
+        width: 50%;
+        z-index: 2;
     }
-
+    
 
 }
