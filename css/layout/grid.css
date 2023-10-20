@@ -245,3 +245,11 @@
     height: auto;
     max-width: 100%;
   }
+
+  .quantities{
+    display: grid;
+    background-color: #A20E03;
+    border-radius:  35px 35px;
+    text-align: center;
+    margin: auto;
+  }
