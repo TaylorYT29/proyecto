@@ -562,6 +562,22 @@
 }
 
 
+/* description */
+
+.description-container{
+  display: grid;
+  width: 80vw;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.description-recipe{
+  background-color: #a5a5a5
+}
+
+
 @media (max-width: 768px) {
   .data-container {
     max-width: 77vh;
