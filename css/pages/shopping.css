@@ -1,0 +1,48 @@
+.cart-item {
+  border-bottom: 0.063rem solid var(--clr-grey-shopping);
+  display: flex;
+  margin-bottom: 0.625rem;
+  margin-left: 2rem;
+  padding: 0.625rem 0;
+}
+
+.cart-item img {
+  height: auto;
+  margin-right: 0.625rem;
+  max-width: 6.25rem;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-summary {
+  margin-top: 1.25rem;
+  text-align: right;
+}
+
+.total-price {
+  margin-right: 3rem;
+}
+
+.total {
+  background-color: var(--clr-grey);
+  color: var(--clr-white);
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.container-shopping {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.recipe-container-shopping {
+  display: grid;
+  gap: 3.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 2rem auto;
+  margin-left: 4rem;
+  width: 45vw;
+}

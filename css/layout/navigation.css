@@ -1,4 +1,4 @@
-.top-nav{
+.top-nav {
     display: flex;
     align-items: center;
     margin-top: 3rem;
@@ -27,13 +27,13 @@
     padding: 0;
     scale: 1.5;
     left: 5rem;
-    width: 30px;
-    height: 30px; 
-} 
+    width: 1.875rem;
+    height: 1.875rem;
+}
 
-.logo-img{
-    width: 80px;
-    height: 80px; 
+.logo-img {
+    width: 5rem;
+    height: 5rem;
 }
 
 .navigation a {
@@ -50,15 +50,12 @@
 .nav-list-icon {
     display: flex;
     align-items: center;
-    margin-left: 1rem; 
+    margin-left: 1rem;
 }
 
-
-
-.mobile-check{
+.mobile-check {
     display: none;
 }
-
 
 @media(min-width:800px) {
     .top-nav {
@@ -83,7 +80,7 @@
         margin-left: 2rem;
     }
 
-    .mobile-btn{
+    .mobile-btn {
         position: fixed;
         top: 4rem;
         right: 2rem;
@@ -92,9 +89,9 @@
         z-index: 3;
     }
 
-    .mobile-btn > span,
-    .mobile-btn > span::before,
-    .mobile-btn > span::after{
+    .mobile-btn>span,
+    .mobile-btn>span::before,
+    .mobile-btn>span::after {
         display: block;
         position: absolute;
         width: 100%;
@@ -103,17 +100,17 @@
         transition-duration: .25s;
     }
 
-    .mobile-btn > span::before{
+    .mobile-btn>span::before {
         content: '';
         top: -.5rem;
     }
 
-    .mobile-btn > span::after{
+    .mobile-btn>span::after {
         content: '';
         top: .5rem;
     }
 
-    .mobile-check{
+    .mobile-check {
         opacity: 0;
         position: fixed;
         top: 3.5rem;
@@ -121,27 +118,27 @@
         z-index: 4;
     }
 
-    .mobile-check:checked + .mobile-btn > span{
+    .mobile-check:checked+.mobile-btn>span {
         transform: rotate(45deg);
     }
 
-    .mobile-check:checked + .mobile-btn > span::before{
+    .mobile-check:checked+.mobile-btn>span::before {
         top: 0;
         transform: rotate(0deg);
     }
 
-    .mobile-check:checked + .mobile-btn > span::after{
+    .mobile-check:checked+.mobile-btn>span::after {
         top: 0;
         transform: rotate(90deg);
     }
 
-    .mobile-check:checked ~ .navigation{
+    .mobile-check:checked~.navigation {
         right: 0;
     }
 
     /* mobile check */
-    
-    .navigation{
+
+    .navigation {
         display: grid;
         position: fixed;
         margin: 0;

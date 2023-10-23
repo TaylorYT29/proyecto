@@ -1,0 +1,13 @@
+.contact-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 2rem auto;
+  text-align: center;
+  width: 80vw;
+}
+
+.img-contact {
+  height: 3.125rem;
+  width: 3.125rem;
+}

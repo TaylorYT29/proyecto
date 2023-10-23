@@ -1,0 +1,10 @@
+.description {
+  background-color: var(--clr-grey);
+  color: var(--clr-white);
+  display: flex;
+  gap: 4rem;
+  padding-bottom: 15rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 15rem;
+}
